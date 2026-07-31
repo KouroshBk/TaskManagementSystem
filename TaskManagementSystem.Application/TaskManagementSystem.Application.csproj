@@ -11,15 +11,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Features\" />
     <Folder Include="DTOs\" />
-    <Folder Include="Interfaces\" />
     <Folder Include="Behaviors\" />
     <Folder Include="Mappings\" />
     <Folder Include="Exceptions\" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="MediatR" Version="14.2.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.10">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
